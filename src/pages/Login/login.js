@@ -12,7 +12,7 @@ function Login() {
 			<TextInput style={styles.input} placeholder='Senha' placeholderTextColor="#000" />
 
 			<TouchableOpacity style={styles.botao}>
-				<Text style={styles.botaoText}>Salvar</Text>
+				<Text style={styles.botaoText}>Acessar</Text>
 			</TouchableOpacity>
 
 			<TouchableOpacity style={styles.botao}>
