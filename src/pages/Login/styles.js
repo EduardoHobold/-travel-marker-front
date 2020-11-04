@@ -10,16 +10,17 @@ const styles = StyleSheet.create({
 	},
 	input: {
 		borderBottomWidth: 1,
-		borderBottomColor: '#000',
+		borderBottomColor: '#4d4d4d',
 		borderRadius: 10,
-		width: '75%',
+		width: '80%',
 		marginBottom: 10,
-		paddingLeft: 10
+		paddingLeft: 10,
+		fontSize: 16
 	},
 	botao: {
 		marginTop: 10,
-		height: '6%',
-		width: '75%',
+		height: 40,
+		width: '80%',
 		borderRadius: 10,
 		textAlign: 'center',
 		backgroundColor: '#ff4d4d',
