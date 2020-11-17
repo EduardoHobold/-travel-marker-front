@@ -14,7 +14,7 @@ function Routes() {
 
 	return (
 		<NavigationContainer>
-			{auth ? <DrawerNavigator /> : <LoginStack />}
+			{auth ? <TabNavigatorMain /> : <LoginStack />}
 		</NavigationContainer>
 	);
 }
