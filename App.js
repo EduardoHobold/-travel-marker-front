@@ -1,10 +1,9 @@
 import React from 'react';
-import Login from './src/pages/Login/login'
-import Cadastro from './src/pages/Cadastro/cadastro'
+import Routes from './src/routes/routes'
 
 const App = () => {
 	return (
-		<Login />
+		<Routes/>
 	);
 };
 
