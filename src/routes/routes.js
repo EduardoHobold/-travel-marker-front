@@ -6,6 +6,7 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 import Login from '../pages/Login/login'
 import Cadastro from '../pages/Cadastro/cadastro'
 import Home from '../pages/Mapa/mapa'
+import ListLocations from '../pages/ListLocations/listLocations'
 
 const Stack = createStackNavigator();
 const TabTop = createMaterialTopTabNavigator();
@@ -35,7 +36,7 @@ function TabNavigatorMain() {
 	return (
 		<TabTop.Navigator>
 			<TabTop.Screen name="Home" component={Home} />
-			<TabTop.Screen name="Cadastro" component={Cadastro} />
+			<TabTop.Screen name="ListLocations" component={ListLocations} />
 		</TabTop.Navigator>
 	);
 }
