@@ -4,7 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 
 import Login from '../pages/Login/login'
-import Cadastro from '../pages/cadastro/cadastro'
+import Cadastro from '../pages/Cadastro/cadastro'
 import Home from '../pages/Mapa/mapa'
 import ListLocations from '../pages/ListLocations/listLocations'
 
