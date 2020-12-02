@@ -12,7 +12,7 @@ const TabTop = createMaterialTopTabNavigator();
 
 
 function Routes() {
-    const auth = true
+    const auth = false
 
 	return (
 		<NavigationContainer>
@@ -26,7 +26,7 @@ function LoginStack() {
 		<Stack.Navigator initialRouteName="Login">
 			<Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
 			<Stack.Screen name="Cadastro" component={Cadastro} options={{ headerShown: false }} />
-			<Stack.Screen name="Home" component={TabNavigatorMain} />
+			<Stack.Screen name="Home" component={TabNavigatorMain} options={{ headerShown: false }} />
 		</Stack.Navigator>
 	);
 }
